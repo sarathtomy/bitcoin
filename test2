@@ -1,0 +1,11 @@
+## Bitcoin Core 0.10.1 and earlier
+bitcoin-cli -regtest setgenerate true 101
+
+## Bitcoin Core master (as of commit 48265f3)
+bitcoin-cli -regtest generate 101
+
+bitcoin-cli -regtest getbalance
+50.00000000
+
+bitcoin-cli -regtest sendtoaddress $NEW_ADDRESS 10.00
+263c018582731ff54dc72c7d67e858c002ae298835501d80200f05753de0edf0
